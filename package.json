@@ -1,0 +1,24 @@
+{
+  "name": "school-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "mocha ./src/test.js",
+    "deploy": "node --watch ./src/index.js",
+    "format": "prettier --single-quote --arrow-parens always --prose-wrap never --write src/**/*.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "mysql": "^2.16.0",
+    "nock": "^10.0.1",
+    "nodemon": "^1.18.3",
+    "sinon": "^6.1.5"
+  }
+}
